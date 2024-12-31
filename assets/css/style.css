@@ -1,0 +1,249 @@
+.container-flued{
+    margin:0px;
+    padding:0px;
+}
+.section_padding{
+    padding-top : 50px;
+}
+button *{
+    text-decoration: none;
+}
+.navbar{
+    background-color: #212121;
+    padding: 0px 15px;
+}
+.navbar-nav .nav-link{
+    color: #fff;
+    font-weight: 600;
+    font-size: 18px;
+}
+.navbar-nav{
+    margin-left: 20%;
+}
+.navbar-nav .nav-link.active{
+    color: #F7941D;
+}
+.navbar-toggler{
+    border: 1px solid #fff;
+}
+.navbar-toggler-icon{
+    filter: invert(1);
+}
+.navdiv{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+    width: 100%;
+}
+.lidiv li{
+    list-style: none;
+    display: inline-block;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    margin-right:25px ;
+}
+.lidiv button{
+background-color: #F7941D;
+margin-left: 10px;
+border-radius: 20px;
+padding: 8px 10px;
+border-color:#fff;
+color: #fff;
+}
+.lidiv button a{
+    color: #fff;
+    font-weight: bold;
+    font-size: 15px;
+}
+/* section_stard */
+.section-1{
+ background: url(../images/background.jpeg);
+ background-position:center;
+ background-repeat: no-repeat;
+ background-size: cover;
+ width: 100%;
+}
+.baner{
+    background-color: #020204cb;
+    padding-left:20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    padding-top: 20px;
+}
+.baner_heading h1{
+    font-size: 50px;
+    color: #fff;
+}
+.button-style{
+    display: flex;
+    margin-top:50px;
+    padding-bottom:30px;
+    gap: 10px;
+}
+.buttondiv1 button{
+    padding: 10px 15px;
+    border-radius: 30px;
+    border-color: #fff;
+    background-color: #F7941D;
+    color: #fff;
+    font-weight: bold;
+}
+.buttondiv2 button{
+    padding: 10px 15px;
+    border-radius: 30px;
+    border-color: #F7941D;
+    background-color:#02020400;
+    color: #F7941D;
+    font-weight: bold;
+}
+/* section_and*/
+/* section_start*/
+.section-2{
+    background-color: #212121;
+}
+section{
+    background-color: #212121;
+}
+.breakfast-manue::before{
+content:"";
+}
+.breakfast-manue h2{
+    color: #F7941D;
+    text-align: center;
+    border-top: 2px solid #2e2d2de1;
+    border-bottom: 2px solid #2e2d2de1;
+    width: fit-content;
+    margin: 0 auto;
+}
+.padding_heading{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.manue_heading h6{
+ color: #fff;
+ text-align: center;
+ padding-top: 20px;
+ font-size: 13px;
+}
+.card_list{
+    background-color: #000;
+    color: #fff;
+    margin: 0 auto;
+}
+.card_list img{
+    max-height: 200px;
+    object-fit: cover;
+
+}
+.card_list h6{
+    color: #F7941D;
+}
+.card_desine{
+    background-color: black;
+}
+.button-section button{
+    padding: 10px 15px;
+    margin-top: 20px;
+    border-radius: 30px;
+    border-color: #fff;
+    background-color: #F7941D;
+    color: #fff;
+    font-weight: bold;
+    display: flex;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.card_row{
+    row-gap: 2rem;
+}
+/* section_and*/
+/* section_start*/
+.our_story h5{
+    color: #F7941D;
+    font-size: 30px;
+}
+.our_story p{
+    color: #fff;
+}
+.our_story{
+    margin-top: 35px;
+}
+.our_story li{
+    color: #fff;
+}
+.margin_gap{
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.card-img-1 img{
+    width: 100%;
+}
+.card-img-1{
+    gap: 1px;
+}
+.lorem-latters{
+    color: #ffffff80;
+}
+.pragraph-text{
+    color: #fff;
+    margin-top:20px ;
+}
+/* section_and*/
+/* section_start*/
+.location-canter svg{
+    color: #F7941D;
+    font-size: 40px;
+}
+.location-canter{
+    color: #fff;
+    text-align: center;
+    align-items: center;
+    margin-top: 30px;
+}
+.location-canter i{
+    color: #e9a655ce;
+}
+.pragraph-latter{
+    color: #fff;
+    font-size: 11px;
+}
+.soshalmedua-icon svg{
+    min-height: 30px;
+}
+
+.soshalmedua-icon{
+    display: flex;
+    color: #F7941D;
+    gap: 1rem;
+    
+}
+.floweron35{
+    color: #fff;
+    margin-top: 50px;
+    font-size: 10px;
+}
+.item{
+    list-style: none;
+    color: #fff;
+    margin-top: 10px;
+}
+.item1{
+    color: #F7941D;
+}
+.Group-2 img{
+    width: 100%;
+}
+/* section_and*/
+
+@media (max-width: 768px) {
+    .navbar-nav{
+        margin-left: 0px;
+    }
+    .lidiv button{
+        margin-left: 0px;
+        margin-bottom: 15px;
+    }
+}
